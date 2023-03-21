@@ -10,7 +10,6 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     (mapboxgl as any).accessToken = environment.mapboxToken;
-
   }
 
 }
